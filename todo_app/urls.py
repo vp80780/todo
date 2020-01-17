@@ -9,5 +9,5 @@ router.register(r"todo", TaskViewSet)
 
 urlpatterns = [
     url(r"^api/", include((router.urls, "todo"))),
-    url(r'^api/required-bank-documents/', RequiredBankDocuments.as_view()),
+    url(r'^api/example/', RequiredBankDocuments.as_view()),
 ]
