@@ -81,7 +81,7 @@ DATABASES = {
         "USER": "todoapp",
         "PASSWORD": os.getenv("DATABASE_PASSWORD"),
         "HOST": os.getenv("DATABASE_SERVICE_NAME"),
-        "PORT": "",
+        "PORT": os.getenv("DATABASE_PORT"),
     }
 }
 
