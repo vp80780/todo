@@ -11,4 +11,4 @@ class TaskViewSet(viewsets.ModelViewSet):
 
 class RequiredBankDocuments(APIView):
     def get(self, request):
-        return Response({'result': 'fail', 'message': 'Django application successfully deployed on Openshift with Postgres database'})
+        return Response({'result': 'success', 'message': 'Django application successfully deployed on Openshift with Postgres database'})
